@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  background-color: beige;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#general {
+  height: 25em;
+  width: 25em;
+}
+
+#up {
+  height: 12.5em;
+  display: flex;
+  flex-direction: row;
+}
+
+#down {
+  height: 12.5em;
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 12.5em;
+  height: 12.5em;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+    background-color: white;
+}
